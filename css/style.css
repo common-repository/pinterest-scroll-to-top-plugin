@@ -1,0 +1,24 @@
+.scrollToTop{
+	right: 15px; 
+	bottom: -100px; 
+	width: 50px; 
+	padding: 20px 10px 25px; 
+	text-align:center;
+	font-family: 'helvetica neue', arial, sans-serif;
+	font-weight: normal;
+	color: #666060;
+	text-decoration: none;
+	position:fixed;
+	cursor: pointer;
+	font-size: 15px;
+	border-radius: .3em;
+	border:1px solid #BBB;
+	background-color: #f0eded; 
+	background:-moz-linear-gradient(center top, #fdfafb, #f9f7f7 50%, #f6f3f4 50%, #f0eded); 
+	background: -o-linear-gradient(top left, #fdfafb, #f9f7f7 50%, #f6f3f4 50%, #f0eded); 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fdfafb), to(#f0eded), color-stop(.5,#f9f7f7),color-stop(.5,#f6f3f4)); 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfafb', endColorstr='#f0eded');
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
